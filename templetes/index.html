@@ -13,11 +13,12 @@
     <div class="text-center m-2">
         <h4>WEL-COME TO ALL IN ONE PDF MERGER PLACE</h4>
     </div>
-
-      <div class="input-group p-5">
-        <input type="file" class="form-control" id="inputGroupFile02" multiple accept=".pdf">
-        <label class="input-group-text" for="inputGroupFile02">Upload</label>
-      </div>
+      <form method="post" action="/merge" enctype="multipart/form-data">
+          <div class="input-group p-5">
+            <input type="file" class="form-control" id="inputGroupFile02" multiple accept=".pdf">
+            <input type="submit" class="btn input-group-text bg-dark text-white" for="inputGroupFile02"></input>
+          </div>
+      </form>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
